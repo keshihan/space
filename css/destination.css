@@ -1,0 +1,145 @@
+body{
+  background-image: url("../images/background-destination-desktop.jpg");
+text-align: center;
+}
+.navbar{
+  padding: 0 0 0 56.25rem;
+
+}
+.container-fluid{
+  background-color: inherit;
+  padding-top: 100px;
+  font-size: 25px;
+}
+.nav-link{
+  font-family: 'PT Serif', serif;
+}
+.first-text{
+  font-size: 30px;
+  color: #fff;
+  padding-right: 500px;
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 4.725px;
+}
+.second-text{
+  font-size: 100px;
+  color:#fff;
+  font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+line-height: 115px;
+}
+.third-text{
+  color: #fff;
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+
+}
+.second{
+  padding-left: 800px;
+}
+.moon-img{
+  position: absolute;
+  width: 445px;
+  height: 445px;
+  left: 230px;
+  top: 300px;
+}
+.block{
+  position: absolute;
+width: 445px;
+height: 472px;
+left: 832px;
+top: 400px;
+}
+.up{
+  color: #D0D6F9;
+}
+.down{
+  color: #fff;
+  font-size: 25px;
+}
+@media(max-width:768px){
+  body{
+    background-image: url("../images/background-destination-tablet.jpg");
+  }
+  .navbar{
+    position: relative;
+    padding-left: 0px;
+    left: -400px;
+    top: -70px;
+}
+.first-text{
+  position: relative;
+  font-size: 13px;
+      left: 30px;
+      top: -20px;
+  }
+.moon-img{
+  position: relative;
+  top:0px;
+  left:150px;
+  right:-150px;
+  bottom:0px;
+}
+.second{
+  position: relative;
+  padding-left: 0px;
+  top:500px;
+  left:-500px;
+  right:500px;
+  bottom:-500px;
+}
+.block{
+position: relative;
+left:-300px;
+top:600px;
+}
+}
+@media (max-width:375px) and (max-height:667px) {
+  body{
+    background-image: url("../images/background-destination-mobile.jpg");
+  }
+  .navbar{
+    position: relative;
+    left:0px;
+    right:0px;
+    top:-70px;
+    bottom:70px;
+  }
+  .first-text{
+    position: relative;
+    padding-right: 0px;
+    left:100px;
+    right:-100px;
+    top:-20px;
+    bottom:20px;
+    }
+  .moon-img{
+    position: relative;
+    top:-80px;
+    left:150px;
+    right:-150px;
+    bottom:0px;
+  }
+  .second{
+    position: relative;
+    top:400px;
+    bottom:-500px;
+    left:-500px;
+    right:500px;
+  }
+  .block{
+    position: relative;
+    top:450px;
+    bottom:-450px;
+    left:-300px;
+    right:300px;
+  }
+}
